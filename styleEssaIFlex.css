@@ -14,6 +14,7 @@
   width: 30%;
   min-width: 300px;
   flex-wrap: wrap;
+  margin-top: 60px;
 }
 .block2 {
   background-color: rgb(243, 173, 147);
@@ -22,6 +23,7 @@
   width: 30%;
   min-width: 300px;
   flex-wrap: wrap;
+  margin-top: 60px;
 }
 .block3 {
   background-color: fuchsia;
@@ -30,13 +32,22 @@
   width: 30%;
   min-width: 300px;
   flex-wrap: wrap;
+  margin-top: 60px;
 }
-p {
+/*p {
   color: blue;
-  /*margin-top: -255px;*/
+  margin-top: -255px;
   padding-left: 10px;
-}
+  min-height: 100px;
+}*/
 h1 {
   margin-left: 150px;
   color: cadetblue;
+}
+.intitule {
+  margin-top: -180px;
+  padding-left: 15px;
+}
+.positionB2 {
+  margin-top: -340px;
 }
