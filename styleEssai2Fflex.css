@@ -1,5 +1,8 @@
+body {
+  background-color: rgb(17, 17, 17);
+}
 .modeflex {
-  background-color: aqua;
+  background-color: rgb(40, 59, 59);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -13,17 +16,25 @@
   width: 30%;
   min-width: 300px;
   flex-wrap: wrap;
-  margin-top: 60px;
+  margin-top: 20px;
   margin-bottom: 60px;
+  border: 3px white solid;
+  border-radius: 20px;
+}
+.postitle {
+  display: flex;
+  flex-direction: row;
+  padding-right: 200px;
+  margin-left: 175px;
 }
 .block1 {
-  background-color: rgb(77, 202, 240);
+  background-color: rgb(40, 59, 59);
 }
 .block2 {
-  background-color: rgb(243, 173, 147);
+  background-color: rgb(40, 59, 59);
 }
 .block3 {
-  background-color: fuchsia;
+  background-color: rgb(40, 59, 59);
 }
 h2 {
   margin-left: 150px;
@@ -32,6 +43,9 @@ h2 {
 .intitule {
   margin-top: -180px;
   padding-left: 15px;
+  text-decoration-line: underline;
+  color: gold;
+  font-size: 1.2em;
 }
 .position {
   margin-top: -340px;
@@ -39,5 +53,10 @@ h2 {
 h1 {
   text-size-adjust: 30px;
   text-align: center;
-  color: brown;
+  color: rgb(96, 228, 238);
+  font-weight: bold;
+  text-shadow: 6px 6px 6px blanchedalmond;
+}
+li {
+  color: beige;
 }
