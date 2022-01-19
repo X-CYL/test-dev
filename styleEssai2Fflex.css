@@ -36,3 +36,8 @@ h2 {
 .position {
   margin-top: -340px;
 }
+h1 {
+  text-size-adjust: 30px;
+  text-align: center;
+  color: brown;
+}
