@@ -28,27 +28,50 @@ body {
   margin-left: 175px;
 }
 .block1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   background-color: rgb(40, 59, 59);
+  justify-content: flex-start;
 }
 .block2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   background-color: rgb(40, 59, 59);
+  justify-content: flex-start;
 }
 .block3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   background-color: rgb(40, 59, 59);
+  justify-content: flex-start;
 }
 h2 {
   margin-left: 150px;
   color: cadetblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.intitule {
-  margin-top: -180px;
+h3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-top: -160px;
   padding-left: 15px;
   text-decoration-line: underline;
   color: gold;
   font-size: 1.2em;
 }
 .position {
-  margin-top: -340px;
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 h1 {
   text-size-adjust: 30px;
@@ -59,4 +82,28 @@ h1 {
 }
 li {
   color: beige;
+}
+.positionULBlock1 {
+  margin-top: -100px;
+}
+.positionH2Block1 {
+  margin-top: 0px;
+}
+.positionH3Block1 {
+  margin-top: 140px;
+}
+.positionH3Block2 {
+  margin-top: 160px;
+}
+.positionOLBlock2 {
+  margin-top: -100px;
+}
+.positionH3Block3 {
+  margin-top: 160px;
+  margin-bottom: -100px;
+}
+.positionOLBlock3 {
+  margin-top: 180;
+  text-decoration: white underline;
+  color: brown;
 }
